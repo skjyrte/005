@@ -6,8 +6,57 @@
     <title>Frontend Mentor | Calculator app</title>
   </head>
   <body>
-    <div class="outerFrame"></div>
-
+    <div class="outerFrame">
+      <div class="headerBox">
+        <div class="titleBar">calc</div>
+        <div class="spaceBar"></div>
+        <div class="themeParagraph">THEME</div>
+        <div class="themeRadio">
+          <div class="radioBox">
+            <div class="theme1 theme activatedStateOn" data-value="1">
+              <div class="label">1</div>
+            </div>
+            <div class="theme2 theme activatedStateOff" data-value="2">
+              <div class="label">2</div>
+            </div>
+            <div class="theme3 theme activatedStateOff" data-value="3">
+              <div class="label">3</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="resultBoxFrame">
+        <div class="resultBox">0</div>
+      </div>
+      <div class="keyboardFrame">
+        <div class="keyboard">
+          <button type="button" class="gridItem keyOne" value="1">1</button>
+          <button type="button" class="gridItem keyTwo" value="2">2</button>
+          <button type="button" class="gridItem keyThree" value="3">3</button>
+          <button type="button" class="gridItem keyFour" value="4">4</button>
+          <button type="button" class="gridItem keyFive" value="5">5</button>
+          <button type="button" class="gridItem keySix" value="6">6</button>
+          <button type="button" class="gridItem keySeven" value="7">7</button>
+          <button type="button" class="gridItem keyEight" value="8">8</button>
+          <button type="button" class="gridItem keyNine" value="9">9</button>
+          <button type="button" class="gridItem keyZero" value="0">0</button>
+          <button type="button" class="gridItem keyDel" value="del">DEL</button>
+          <button type="button" class="gridItem keyAdd" value="+">+</button>
+          <button type="button" class="gridItem keySubstract" value="-">
+            -
+          </button>
+          <button type="button" class="gridItem keyMultiply" value="*">
+            x
+          </button>
+          <button type="button" class="gridItem keyDivide" value="/">/</button>
+          <button type="button" class="gridItem keyDot" value=".">.</button>
+          <button type="button" class="gridItem keyReset" value="reset">
+            RESET
+          </button>
+          <button type="button" class="gridItem keyEqual" value="=">=</button>
+        </div>
+      </div>
+    </div>
     <script src="./bundle.js"></script>
   </body>
 </html>
